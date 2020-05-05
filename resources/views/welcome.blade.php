@@ -1069,34 +1069,13 @@
                                 <ul class="nav nav-list flex-column">
                                     <li class="nav-item"><a class="nav-link" href="#">Arts & Crafts</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">Automotive</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Baby</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Eletronics</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Women's Fashion</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Men's Fashion</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Health & Household</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Home & Kitchen</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Military Accessories</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Movies & Television</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Sports & Outdoors</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Tools & Home Improvement</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Toys & Games</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Baby</a></li>                                   
                                 </ul>
                                 <h5 class="font-weight-bold pt-5">Tags</h5>
                                 <div class="mb-3 pb-1">
                                     <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Nike</span></a>
                                     <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Travel</span></a>
                                     <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Sport</span></a>
-                                    <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">TV</span></a>
-                                    <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Books</span></a>
-                                    <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Tech</span></a>
-                                    <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Adidas</span></a>
-                                    <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Promo</span></a>
-                                    <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Reading</span></a>
-                                    <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Social</span></a>
-                                    <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Books</span></a>
-                                    <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Tech</span></a>
-                                    <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">New</span></a>
                                 </div>
                                 <div class="row mb-5">
                                     <div class="col">
@@ -1166,7 +1145,7 @@
                                             </a>
                                             <a href="shop-product-sidebar-left.html">
                                                 <span class="product-thumb-info-image">
-                                                    <img alt="" class="img-fluid" src="img/products/product-grey-1.jpg">
+                                                    <img alt="" class="img-fluid" src="{{ asset('img/camera.jpg') }}">
                                                 </span>
                                             </a>
                                             <span class="product-thumb-info-content product-thumb-info-content pl-0 bg-color-light">
@@ -1187,7 +1166,7 @@
                                             </a>
                                             <a href="shop-product-sidebar-left.html">
                                                 <span class="product-thumb-info-image">
-                                                    <img alt="" class="img-fluid" src="img/products/product-grey-2.jpg">
+                                                    <img alt="" class="img-fluid" src="{{ asset('img/camera.jpg') }}">
                                                 </span>
                                             </a>
                                             <span class="product-thumb-info-content product-thumb-info-content pl-0 bg-color-light">
@@ -1207,7 +1186,7 @@
                                             </a>
                                             <a href="shop-product-sidebar-left.html">
                                                 <span class="product-thumb-info-image">
-                                                    <img alt="" class="img-fluid" src="img/products/product-grey-3.jpg">
+                                                    <img alt="" class="img-fluid" src="{{ asset('img/camera.jpg') }}">
                                                 </span>
                                             </a>
                                             <span class="product-thumb-info-content product-thumb-info-content pl-0 bg-color-light">
@@ -1227,7 +1206,7 @@
                                             </a>
                                             <a href="shop-product-sidebar-left.html">
                                                 <span class="product-thumb-info-image">
-                                                    <img alt="" class="img-fluid" src="img/products/product-grey-4.jpg">
+                                                    <img alt="" class="img-fluid" src="{{ asset('img/camera.jpg') }}">
                                                 </span>
                                             </a>
                                             <span class="product-thumb-info-content product-thumb-info-content pl-0 bg-color-light">
@@ -1247,7 +1226,7 @@
                                             </a>
                                             <a href="shop-product-sidebar-left.html">
                                                 <span class="product-thumb-info-image">
-                                                    <img alt="" class="img-fluid" src="img/products/product-grey-5.jpg">
+                                                    <img alt="" class="img-fluid" src="{{ asset('img/camera.jpg') }}">
                                                 </span>
                                             </a>
                                             <span class="product-thumb-info-content product-thumb-info-content pl-0 bg-color-light">
@@ -1270,7 +1249,7 @@
                                             </a>
                                             <a href="shop-product-sidebar-left.html">
                                                 <span class="product-thumb-info-image">
-                                                    <img alt="" class="img-fluid" src="img/products/product-grey-6.jpg">
+                                                    <img alt="" class="img-fluid" src="{{ asset('img/camera.jpg') }}">
                                                 </span>
                                             </a>
                                             <span class="product-thumb-info-content product-thumb-info-content pl-0 bg-color-light">
@@ -1291,7 +1270,7 @@
                                             </a>
                                             <a href="shop-product-sidebar-left.html">
                                                 <span class="product-thumb-info-image">
-                                                    <img alt="" class="img-fluid" src="img/products/product-grey-7.jpg">
+                                                    <img alt="" class="img-fluid" src="{{ asset('img/camera.jpg') }}">
                                                 </span>
                                             </a>
                                             <span class="product-thumb-info-content product-thumb-info-content pl-0 bg-color-light">
@@ -1311,7 +1290,7 @@
                                             </a>
                                             <a href="shop-product-sidebar-left.html">
                                                 <span class="product-thumb-info-image">
-                                                    <img alt="" class="img-fluid" src="img/products/product-grey-8.jpg">
+                                                    <img alt="" class="img-fluid" src="{{ asset('img/camera.jpg') }}">
                                                 </span>
                                             </a>
                                             <span class="product-thumb-info-content product-thumb-info-content pl-0 bg-color-light">
@@ -1334,7 +1313,7 @@
                                             </a>
                                             <a href="shop-product-sidebar-left.html">
                                                 <span class="product-thumb-info-image">
-                                                    <img alt="" class="img-fluid" src="img/products/product-grey-9.jpg">
+                                                    <img alt="" class="img-fluid" src="{{ asset('img/camera.jpg') }}">
                                                 </span>
                                             </a>
                                             <span class="product-thumb-info-content product-thumb-info-content pl-0 bg-color-light">
