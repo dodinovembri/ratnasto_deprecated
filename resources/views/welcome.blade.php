@@ -1032,7 +1032,7 @@
                                                         </li>
                                                         <li class="dropdown">
                                                             <a class="dropdown-item dropdown-toggle" href="https://bisnis.ratna.store/" target="_blank">
-                                                                Bussiness
+                                                                Business
                                                             </a>
                                                         </li>                                                        
                                                     </ul>
